@@ -1,0 +1,7 @@
+s=input("Enter a string with coma:")
+s1 = s.rsplit(',',1)
+print(s1)
+s1=s.rsplit(',',3)
+print(s1)
+s1=s.rsplit(',',5)
+print(s1)

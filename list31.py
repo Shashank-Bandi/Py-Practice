@@ -1,0 +1,5 @@
+l=eval(input("Enter list of values:"))
+l.sort()
+print("Second smallest:",l[1])
+l.sort(reverse=True)
+print("Secong largest:",l[1])
